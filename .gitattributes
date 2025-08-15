@@ -1,9 +1,8 @@
-*.pck filter=lfs diff=lfs merge=lfs
-index.wasm filter=lfs diff=lfs merge=lfs
-index.apple-touch-icon* filter=lfs diff=lfs merge=lfs
-index.audio.worklet.js filter=lfs diff=lfs merge=lfs
-index.html filter=lfs diff=lfs merge=lfs
-index.icon.png filter=lfs diff=lfs merge=lfs
-index.js filter=lfs diff=lfs merge=lfs
-index.pck filter=lfs diff=lfs merge=lfs
-index.png filter=lfs diff=lfs merge=lfs
+index.apple-touch-icon* filter=lfs diff=lfs merge=lfs -text
+index.audio.worklet.js filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
+index.icon.png filter=lfs diff=lfs merge=lfs -text
+index.js filter=lfs diff=lfs merge=lfs -text
+index.pck filter=lfs diff=lfs merge=lfs -text
+index.png filter=lfs diff=lfs merge=lfs -text
+index.wasm filter=lfs diff=lfs merge=lfs -text
